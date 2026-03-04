@@ -1,4 +1,5 @@
 import { CalendarDays, ChevronLeft, ChevronRight, Twitter, Linkedin, Facebook } from "lucide-react";
+import { Button } from "@geenius-ui/react-css";
 
 export default function CalendarPage() {
     const days = Array.from({ length: 35 }, (_, i) => i - 2); // Simulating 35 calendar cells
@@ -6,9 +7,9 @@ export default function CalendarPage() {
         <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "var(--space-6)" }}>
             <h1 style={{ fontSize: "var(--font-size-2xl)", fontWeight: 800, display: "flex", alignItems: "center", gap: "var(--space-2)" }}><CalendarDays style={{ color: "var(--color-accent-primary)" }} /> October 2026</h1>
             <div style={{ display: "flex", gap: "var(--space-2)", alignItems: "center" }}>
-                <button className="btn btn-ghost" style={{ padding: 8 }}><ChevronLeft size={20} /></button>
+                <Button variant="ghost" icon={<ChevronLeft size={20} />} style={{ padding: 8 }} />
                 <span style={{ fontWeight: 700, color: "var(--color-text-secondary)" }}>Today</span>
-                <button className="btn btn-ghost" style={{ padding: 8 }}><ChevronRight size={20} /></button>
+                <Button variant="ghost" icon={<ChevronRight size={20} />} style={{ padding: 8 }} />
             </div>
         </div>
 

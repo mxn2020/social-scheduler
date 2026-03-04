@@ -1,0 +1,13 @@
+id: 9ac381d8-38ad-4e7c-8e96-c72bf867937c
+name: social-scheduler
+description: React + TypeScript + Vite
+tier: prototype
+lane: oss
+priority: medium
+oss: false
+stack: [typescript, react, convex, tailwind, vite]
+repo: "https://github.com/mxn2020/social-scheduler"
+deploy_url: null
+last_active: 2026-02-24
+tags: []
+notes: 
