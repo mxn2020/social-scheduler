@@ -1,0 +1,16 @@
+name: social-scheduler
+project_scope: main
+project_type: standalone
+description: Social media post scheduling and analytics platform
+tier: prototype
+lane: open-source
+priority: medium
+oss: true
+stack: ["typescript", "react", "vite", "convex"]
+repo: "https://github.com/mxn2020/social-scheduler"
+deploy_url: null
+last_active: 2026-03-11
+tags: ["social-scheduler", "convex", "react", "open-source", "ai-tools"]
+notes: null
+id: null
+category: oss-tool
